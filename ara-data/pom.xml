@@ -12,4 +12,14 @@
     <artifactId>ara-data</artifactId>
     <name>ara-data</name>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>1.9.0.RELEASE</version>
+        </dependency>
+
+    </dependencies>
+
 </project>
