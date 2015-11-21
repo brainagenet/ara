@@ -11,7 +11,7 @@
     </parent>
     <artifactId>ara-web</artifactId>
     <packaging>war</packaging>
-    <name>ara-web Maven Webapp</name>
+    <name>ara-web</name>
 
     <build>
         <finalName>ara-web</finalName>
@@ -52,6 +52,26 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
+            <!--
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+            -->
+        </dependency>
+        
+        <!-- apache shiro -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-web</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.2.4</version>
         </dependency>
 
         <!-- jstl -->
