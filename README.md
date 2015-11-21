@@ -2,7 +2,7 @@
 
 Ara (the Korean word for 'sea') is source code generator based-on data dictionary metadata.
 
-## What is Nuri?
+## What is Ara?
 
 Ara is source code generator based-on data dictionary metadata. To increase productivity and quality of brainage.net softwares.
 
