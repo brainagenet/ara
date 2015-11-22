@@ -12,6 +12,7 @@
     <modules>
         <module>ara-core</module>
         <module>ara-data</module>
+        <module>ara-service</module>
         <module>ara-web</module>
     </modules>
 
