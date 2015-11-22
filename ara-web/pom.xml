@@ -48,6 +48,13 @@
 
     <dependencies>
 
+        <!-- ara dependency -->
+        <dependency>
+            <groupId>net.brainage.ara</groupId>
+            <artifactId>ara-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <!-- spring -->
         <dependency>
             <groupId>org.springframework</groupId>
