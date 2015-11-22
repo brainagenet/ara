@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>ara-core</module>
         <module>ara-data</module>
         <module>ara-web</module>
     </modules>
