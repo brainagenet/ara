@@ -10,7 +10,6 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>ara-data</artifactId>
-    <name>ara-data</name>
 
     <dependencies>
     
@@ -21,10 +20,22 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- ara -->
         <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-jpa</artifactId>
-            <version>1.9.0.RELEASE</version>
+            <groupId>net.brainage.ara</groupId>
+            <artifactId>ara-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>1.2.5</version>
         </dependency>
 
     </dependencies>
